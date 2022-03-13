@@ -514,7 +514,7 @@ div.left-bar-profile_names {
 
 .a-smite_outline {
   outline: solid 1px rgb(235, 238, 240);
-  width: 100%;
+  width: 100vw;
 }
 
 .a-potential_top {
