@@ -638,7 +638,13 @@ a {
   font-weight: bold;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: clip;
+}
+
+@media (max-width: 400px) {
+  .a-smite_acc {
+    max-width: 135px;
+  }
 }
 
 .a-smite_acc:hover {
